@@ -8,7 +8,6 @@ namespace Arduino.IDE.Wrapper
 {
     public sealed class ArduinoIDE
     {
-        string installBasePath;
         public ArduinoIDE(string installBasePath)
         {
             if (string.IsNullOrEmpty(installBasePath))
@@ -19,8 +18,6 @@ namespace Arduino.IDE.Wrapper
 
             this.installBasePath = installBasePath;
         }
-
-        private Version version;
         public Version Version
         {
             get
@@ -30,7 +27,6 @@ namespace Arduino.IDE.Wrapper
                 return version;
             }
         }
-
         public StreamReader ReleaseNotes
         {
             get
@@ -43,17 +39,9 @@ namespace Arduino.IDE.Wrapper
             }
         }
 
-        public IEnumerable<ArduinoExample> EnumerateExamples()
-        {
-            var basePathToExamples = Path.Combine(installBasePath, "examples");
 
-            if (!Directory.Exists(basePathToExamples))
-                return Enumerable.Empty<ArduinoExample>();
-
-            return from file in Directory.EnumerateFiles(basePathToExamples, "*.ino", SearchOption.AllDirectories)
-                   select new ArduinoExample(file);
-        }
-
+        private string installBasePath;
+        private Version version;
         private Version InitializeVersion()
         {
             var path = Path.Combine(installBasePath, "lib", "version.txt");
@@ -65,5 +53,6 @@ namespace Arduino.IDE.Wrapper
             else
                 throw new FileNotFoundException(string.Format("Unable to find the file {0} to retrieve the revision information of the Arduino installation", path));
         }
+
     }
 }
