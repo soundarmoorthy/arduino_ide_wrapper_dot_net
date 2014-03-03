@@ -22,7 +22,7 @@ namespace Arduino.IDE.Wrapper
             get
             {
                 return Path.GetFileNameWithoutExtension(fullPath);
-            }               
+            }
         }
 
         public string Description
@@ -52,27 +52,23 @@ namespace Arduino.IDE.Wrapper
             {
                 if (category == null)
                 {
-                    category = ComputeCategoryFromFilePath();
+                    InitializeCategoryFromFilePath();
                 }
                 return category;
             }
         }
 
-        private string ComputeCategoryFromFilePath()
+        private void InitializeCategoryFromFilePath()
         {
-            var examplesDir = "examples";
-            var path = fullPath;
-            do
-            {
-                var dir = Path.GetDirectoryName(path);
-                if (String.Equals(dir, examplesDir, StringComparison.OrdinalIgnoreCase))
-                {
-
-                }
-                path = Directory.GetParent(path).FullName;
-            }
-            while (string.IsNullOrEmpty(path));
+            var dir = new DirectoryInfo(fullPath);
+            this.subCategory = dir.Parent.Name;
+            this.category = dir.Parent.Parent.Name;
         }
-        public string SubCategory { get; private set; }
+
+        string subCategory;
+        public string SubCategory
+        {
+            get { if (subCategory == null) InitializeCategoryFromFilePath(); return subCategory; }
+        }
     }
 }

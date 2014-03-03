@@ -26,9 +26,7 @@ namespace Arduino.IDE.Wrapper
             get
             {
                 if (version == null)
-                {
                     version = InitializeVersion();
-                }
                 return version;
             }
         }
@@ -48,20 +46,13 @@ namespace Arduino.IDE.Wrapper
         public IEnumerable<ArduinoExample> EnumerateExamples()
         {
             var basePathToExamples = Path.Combine(installBasePath, "examples");
+
             if (!Directory.Exists(basePathToExamples))
                 return Enumerable.Empty<ArduinoExample>();
 
-            var examples = RecurseEnumerateExamples(basePathToExamples);
+            return from file in Directory.EnumerateFiles(basePathToExamples, "*.ino", SearchOption.AllDirectories)
+                   select new ArduinoExample(file);
         }
-
-        private IEnumerable<ArduinoExample> RecurseEnumerateExamples(string examplesDirectory)
-        {
-            foreach (var file in Directory.EnumerateFiles(examplesDirectory, "*.ino", SearchOption.AllDirectories))
-            {
-                yield return new ArduinoExample(file);
-            }
-        }
-
 
         private Version InitializeVersion()
         {
