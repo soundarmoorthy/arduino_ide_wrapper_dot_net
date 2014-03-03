@@ -6,6 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Arduino.IDE.Example.Service;
 using System.IO;
 using Arduino.IDE;
+using System.Diagnostics;
 
 namespace ArduinoWrapper.Tests.Example.Service.Tests
 {
@@ -21,7 +22,9 @@ namespace ArduinoWrapper.Tests.Example.Service.Tests
             foreach (var item in examples)
             {
                 Assert.IsNotNull(item);
-                Assert.IsNotNull(item.Description);
+                //This is rather time consuming. But this is important because there are differences in how description is retrived depending
+                //on the nature of the example project.
+                Assert.IsNotNull(item.Context);
                 Assert.IsNotNull(item.FullPath);
                 Assert.IsNotNull(item.Name);
 
@@ -32,6 +35,8 @@ namespace ArduinoWrapper.Tests.Example.Service.Tests
                     Assert.IsNotNull(cat.Name);
                     cat = cat.Child;
                 }
+
+                //Debug.WriteLine(item);
             }
         }
     }

@@ -42,15 +42,18 @@ namespace Arduino.IDE.Example.Service
             this.category = prev;
         }
 
-        protected override string GetDescription()
+        protected override char[] GetContext()
         {
             var dir = new DirectoryInfo(fullPathToSketchFile);
             while (dir.Name != "examples")
                 dir = dir.Parent;
-
-            var properties = File.ReadAllLines(Path.Combine(dir.Parent.FullName, "library.properties"));
-            var description = String.Join(Environment.NewLine, properties);
-            return description;
+            using (StreamReader reader = new StreamReader(Path.Combine(dir.Parent.FullName, "library.properties")))
+            {
+                var size = reader.BaseStream.Length;
+                char[] buffer = new char[size];
+                reader.ReadBlock(buffer, 0, (int)size);
+                return buffer;
+            }
         }
     }
 }

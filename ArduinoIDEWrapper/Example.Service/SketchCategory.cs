@@ -14,6 +14,19 @@ namespace Arduino.IDE.Example.Service
             internal set;
         }
         public SketchCategory Child { get; internal set; }
+
+        public override string ToString()
+        {
+            StringBuilder stringish = new StringBuilder();
+            var cat = this;
+            while (cat != null)
+            {
+                stringish.Append("->");
+                stringish.Append(cat.Name);
+                cat = cat.Child;
+            }
+            return stringish.ToString();
+        }
     }
 
         

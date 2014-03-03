@@ -25,21 +25,21 @@ namespace Arduino.IDE.Example.Service
             }
         }
 
-        public string Description
+        public char[] Context
         {
             get
             {
-                return GetDescription();
+                return GetContext();
             }
         }
 
-        protected virtual string GetDescription()
+        protected virtual char[] GetContext()
         {
             using (StreamReader reader = new StreamReader(fullPathToSketchFile))
             {
-                char[] buffer = new char[1024]; //Read 1 Kb of information from the file.
-                reader.ReadBlock(buffer, 0, 1024);
-                return new String(buffer);
+                char[] buffer = new char[512]; //Read 512 bytes of information from the file.
+                reader.ReadBlock(buffer, 0, 512);
+                return buffer;
             }
         }
 
@@ -57,5 +57,10 @@ namespace Arduino.IDE.Example.Service
         }
 
         public abstract void InitializeCategoryFromFilePath();
+
+        public override string ToString()
+        {
+            return String.Join(Environment.NewLine, Name, Context, Category, FullPath);
+        }
     }
 }
