@@ -7,7 +7,6 @@ namespace Arduino.IDE.Example
 {
     public sealed class SketchCategory
     {
-        string name;
         public string Name
         {
             get;

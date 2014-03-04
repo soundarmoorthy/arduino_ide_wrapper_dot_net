@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		ArduinoIDEWrapper.vsmdi = ArduinoIDEWrapper.vsmdi
 		Local.testsettings = Local.testsettings
+		Readme.txt = Readme.txt
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
@@ -20,6 +21,9 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		OpenCover|Any CPU = OpenCover|Any CPU
+		OpenCover|Mixed Platforms = OpenCover|Mixed Platforms
+		OpenCover|x86 = OpenCover|x86
 		Release|Any CPU = Release|Any CPU
 		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
@@ -30,6 +34,11 @@ Global
 		{AC5A5F58-5003-45B7-9CE9-46DCDDF51E5A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{AC5A5F58-5003-45B7-9CE9-46DCDDF51E5A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{AC5A5F58-5003-45B7-9CE9-46DCDDF51E5A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AC5A5F58-5003-45B7-9CE9-46DCDDF51E5A}.OpenCover|Any CPU.ActiveCfg = OpenCover|Any CPU
+		{AC5A5F58-5003-45B7-9CE9-46DCDDF51E5A}.OpenCover|Any CPU.Build.0 = OpenCover|Any CPU
+		{AC5A5F58-5003-45B7-9CE9-46DCDDF51E5A}.OpenCover|Mixed Platforms.ActiveCfg = OpenCover|Any CPU
+		{AC5A5F58-5003-45B7-9CE9-46DCDDF51E5A}.OpenCover|Mixed Platforms.Build.0 = OpenCover|Any CPU
+		{AC5A5F58-5003-45B7-9CE9-46DCDDF51E5A}.OpenCover|x86.ActiveCfg = OpenCover|Any CPU
 		{AC5A5F58-5003-45B7-9CE9-46DCDDF51E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC5A5F58-5003-45B7-9CE9-46DCDDF51E5A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC5A5F58-5003-45B7-9CE9-46DCDDF51E5A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
@@ -40,6 +49,11 @@ Global
 		{0DDF015E-3E30-49C2-A0AC-B8A196EA2C31}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
 		{0DDF015E-3E30-49C2-A0AC-B8A196EA2C31}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{0DDF015E-3E30-49C2-A0AC-B8A196EA2C31}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0DDF015E-3E30-49C2-A0AC-B8A196EA2C31}.OpenCover|Any CPU.ActiveCfg = OpenCover|Any CPU
+		{0DDF015E-3E30-49C2-A0AC-B8A196EA2C31}.OpenCover|Any CPU.Build.0 = OpenCover|Any CPU
+		{0DDF015E-3E30-49C2-A0AC-B8A196EA2C31}.OpenCover|Mixed Platforms.ActiveCfg = OpenCover|Any CPU
+		{0DDF015E-3E30-49C2-A0AC-B8A196EA2C31}.OpenCover|Mixed Platforms.Build.0 = OpenCover|Any CPU
+		{0DDF015E-3E30-49C2-A0AC-B8A196EA2C31}.OpenCover|x86.ActiveCfg = OpenCover|Any CPU
 		{0DDF015E-3E30-49C2-A0AC-B8A196EA2C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DDF015E-3E30-49C2-A0AC-B8A196EA2C31}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0DDF015E-3E30-49C2-A0AC-B8A196EA2C31}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
