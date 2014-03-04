@@ -6,7 +6,7 @@ using System.Xml.Serialization;
 
 namespace Arduino.IDE
 {
-    public static class EnvironmentService
+    public static class ArduinoInstallationService
     {
         [XmlElement()]
         public static string InstallationPath { get { return @"C:\interopArduino\arduino-1.5.6-r2\"; } }

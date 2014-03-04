@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace Arduino.IDE.Example.Service
+namespace Arduino.IDE.Example
 {
     public sealed class ArduinoExampleSketch : ArduinoSketch
     {

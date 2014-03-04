@@ -3,10 +3,10 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Arduino.IDE.Example.Service;
 using System.IO;
 using Arduino.IDE;
 using System.Diagnostics;
+using Arduino.IDE.Example;
 
 namespace ArduinoWrapper.Tests.Example.Service.Tests
 {
@@ -16,7 +16,7 @@ namespace ArduinoWrapper.Tests.Example.Service.Tests
         [TestMethod]
         public void EnumerateExamplesTests()
         {
-            var exService = new ExamplesService(EnvironmentService.InstallationPath);
+            var exService = new ExamplesService(ArduinoInstallationService.InstallationPath);
             var examples = exService.EnumerateExamples();
 
             foreach (var item in examples)

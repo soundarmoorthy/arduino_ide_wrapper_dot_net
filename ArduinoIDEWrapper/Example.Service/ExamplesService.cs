@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace Arduino.IDE.Example.Service
+namespace Arduino.IDE.Example
 {
     public sealed class ExamplesService
     {
@@ -36,6 +36,7 @@ namespace Arduino.IDE.Example.Service
             }
         }
 
+        //Return the example projects from the Arduino library directory. Remember that the Arduino Library directories could be empty and might not ship an example !
         private IEnumerable<ArduinoSketch> EnumerateLibraryExamplesInternal()
         {
             var basePathToExamples = Path.Combine(installBasePath, "libraries");

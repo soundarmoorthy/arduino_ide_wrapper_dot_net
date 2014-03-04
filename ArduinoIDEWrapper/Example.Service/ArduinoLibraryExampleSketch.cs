@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 using System.Runtime.CompilerServices;
 
-namespace Arduino.IDE.Example.Service
+namespace Arduino.IDE.Example
 {
     
     internal sealed class ArduinoLibraryExampleSketch : ArduinoSketch

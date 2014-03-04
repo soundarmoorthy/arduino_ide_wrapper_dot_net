@@ -47,6 +47,9 @@
     <Compile Include="Example.Service\SketchCategory.cs" />
     <Compile Include="IDE.Service\ArduinoIDE.cs" />
     <Compile Include="IDE.Service\ArduinoEnvironment.cs" />
+    <Compile Include="Library.Service\Keywords.cs" />
+    <Compile Include="Library.Service\Library.cs" />
+    <Compile Include="Library.Service\LibraryService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

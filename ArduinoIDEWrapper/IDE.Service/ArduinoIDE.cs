@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace Arduino.IDE.Wrapper
+namespace Arduino.IDE
 {
     public sealed class ArduinoIDE
     {

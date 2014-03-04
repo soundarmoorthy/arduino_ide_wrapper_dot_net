@@ -5,7 +5,7 @@ using System.Text;
 using System.Collections;
 using System.IO;
 
-namespace Arduino.IDE.Example.Service
+namespace Arduino.IDE.Example
 {
     public abstract class ArduinoSketch
     {

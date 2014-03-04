@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Example.Service.Tests\ArduinoExamplesService.Tests.cs" />
+    <Compile Include="Library.Service\Library.Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IDEWrapper.tests.cs" />
   </ItemGroup>
