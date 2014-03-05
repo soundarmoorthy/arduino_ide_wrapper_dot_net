@@ -18,7 +18,11 @@ namespace Arduino.IDE
 
             this.installBasePath = installBasePath;
         }
-        public Version Version
+
+        /// <summary>
+        /// The Arduino version as returned by revisions.txt in the /lib folder of arduino.
+        /// </summary>
+        public string Version
         {
             get
             {
@@ -41,14 +45,14 @@ namespace Arduino.IDE
 
 
         private string installBasePath;
-        private Version version;
-        private Version InitializeVersion()
+        private string version;
+        private string InitializeVersion()
         {
             var path = Path.Combine(installBasePath, "lib", "version.txt");
             if (File.Exists(path))
             {
                 var version = File.ReadAllText(path);
-                return new Version(version);
+                return version;
             }
             else
                 throw new FileNotFoundException(string.Format("Unable to find the file {0} to retrieve the revision information of the Arduino installation", path));

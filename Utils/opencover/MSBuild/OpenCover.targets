@@ -2,6 +2,7 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<UsingTask TaskName="OpenCover.MSBuild.OpenCover" AssemblyFile="$(SolutionDir)\Utils\opencover\MSBuild\OpenCover.MSBuild.dll" />
 	<Target Name="CodeCoverage" Condition=" '$(Configuration)|$(Platform)' == 'OpenCover|AnyCPU' " AfterTargets="CoreBuild">
-		<OpenCover ToolPath="$(SolutionDir)\Utils\opencover\" Register="true" Target="$(DevEnvDir)\MSTest.exe" TargetArgs="/testcontainer:$(TargetPath)" Filter="+[ArduinoIDEWrapper.Tests*]*" Output="$(TargetDir)\output.xml"/>
+		<OpenCover ToolPath="$(SolutionDir)\Utils\opencover\" Register="true" Target="$(DevEnvDir)\MSTest.exe" TargetArgs="/testcontainer:$(TargetPath)" Output="$(TargetDir)\output.xml"/>
+		<Exec Command="$(SolutionDir)\Utils\opencover\report\ReportGenerator.exe -reports:output.xml -targetdir:$(ProjectDir)\TestReport" WorkingDirectory="$(TargetDir)" />
 	</Target>
 </Project>
