@@ -11,7 +11,9 @@ namespace Arduino.IDE
         public ArduinoIDE(string installBasePath)
         {
             if (string.IsNullOrEmpty(installBasePath))
+            {
                 throw new ArgumentException("installBasePath");
+            }
 
             if (!Directory.Exists(installBasePath))
                 throw new DirectoryNotFoundException("The specified installation base directory doesn't exist");

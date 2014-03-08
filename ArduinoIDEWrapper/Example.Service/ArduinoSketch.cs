@@ -33,6 +33,7 @@ namespace Arduino.IDE.Example
             }
         }
 
+        //By default read the first 512 bytes of the sketch file.
         protected virtual char[] GetContext()
         {
             using (StreamReader reader = new StreamReader(fullPathToSketchFile))
@@ -56,7 +57,7 @@ namespace Arduino.IDE.Example
             }
         }
 
-        public abstract void InitializeCategoryFromFilePath();
+        protected abstract void InitializeCategoryFromFilePath();
 
         public override string ToString()
         {

@@ -13,7 +13,8 @@ namespace ArduinoWrapper.Tests.Library.Service
     public sealed class LibraryTests
     {
         [TestMethod]
-        public void SimpleTest_LibraryAccessors()
+        [TestCategory("RequireInstallation")]
+        public void Test_If_Library_Accessors_Works_Without_Exceptions()
         {
             var samples = Directory.EnumerateDirectories(Path.Combine(ArduinoInstallationService.InstallationPath, "libraries"));
 
@@ -22,8 +23,13 @@ namespace ArduinoWrapper.Tests.Library.Service
                 var library = new ArduinoLibrary(sample);
 
                 Assert.IsNotNull(library);
+
                 Assert.IsNotNull(library.Path);
+                Assert.IsNotNull(Path.GetFullPath(library.Path));
+
                 Assert.IsNotNull(library.CompilationUnits);
+                Assert.IsTrue(library.CompilationUnits.Any()); //There should be atleast one compilation unit per library
+
                 Assert.IsNotNull(library.IncludeFiles);
                 Assert.IsNotNull(library.Name);
 

@@ -22,6 +22,7 @@ namespace Arduino.IDE.Library
             {
                 yield return new ArduinoLibrary(libraryPath);
             }
+
         }
     }
 }

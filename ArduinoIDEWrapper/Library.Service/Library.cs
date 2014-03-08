@@ -89,10 +89,7 @@ namespace Arduino.IDE.Library
         private void InitializeCompilationUnits()
         {
             var srcPath = System.IO.Path.Combine(this.path, "src");
-            compilationUnits = Directory.EnumerateFiles(srcPath, "*.cpp", SearchOption.TopDirectoryOnly);
-
-            if (!compilationUnits.Any())
-                this.compilationUnits = Enumerable.Empty<string>();
+            compilationUnits = Directory.EnumerateFiles(srcPath, "*.cpp", SearchOption.AllDirectories);
         }
     }
 }

@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
+using Arduino.IDE.Example.Service;
 
 namespace Arduino.IDE.Example
 {
-    public sealed class ExamplesService
+    public sealed class ExamplesService : IServiceProvider<ExamplesService,string>
     {
         string installBasePath;
         public ExamplesService(string installPath)
@@ -14,16 +15,17 @@ namespace Arduino.IDE.Example
             this.installBasePath = installPath;
         }
 
-        public IEnumerable<ArduinoSketch> EnumerateExamples()
+        public IEnumerable<ArduinoSketch> EnumerateExamplesAll()
         {
-            foreach (var item in EnumerateExamplesInternal().Union(EnumerateLibraryExamplesInternal()))
+            foreach (var item in EnumerateExamples().Union(EnumerateExamplesInLibrary()))
             {
                 yield return item;
             }
         }
 
         //Return the example projects from the Arduino examples directory
-        private IEnumerable<ArduinoSketch> EnumerateExamplesInternal()
+        //Don't return if it's empty/null
+        public IEnumerable<ArduinoSketch> EnumerateExamples()
         {
             var basePathToExamples = Path.Combine(installBasePath, "examples");
 
@@ -37,7 +39,7 @@ namespace Arduino.IDE.Example
         }
 
         //Return the example projects from the Arduino library directory. Remember that the Arduino Library directories could be empty and might not ship an example !
-        private IEnumerable<ArduinoSketch> EnumerateLibraryExamplesInternal()
+        public IEnumerable<ArduinoSketch> EnumerateExamplesInLibrary()
         {
             var basePathToExamples = Path.Combine(installBasePath, "libraries");
 
@@ -48,6 +50,21 @@ namespace Arduino.IDE.Example
             {
                 yield return new ArduinoLibraryExampleSketch(file);
             }
+        }
+
+        ExamplesService service;
+        public void Create(string args)
+        {
+            if (service == null)
+                service = new ExamplesService(args);
+        }
+
+        public ExamplesService GetService()
+        {
+            if (service != null)
+                return service;
+            else
+                throw new NullReferenceException("The requested service is not initialized yet.");
         }
     }
 }

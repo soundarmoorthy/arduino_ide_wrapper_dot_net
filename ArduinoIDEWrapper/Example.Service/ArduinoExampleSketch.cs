@@ -8,13 +8,13 @@ namespace Arduino.IDE.Example
 {
     public sealed class ArduinoExampleSketch : ArduinoSketch
     {
-        public ArduinoExampleSketch(string fullPathToSketchFile)
+        internal ArduinoExampleSketch(string fullPathToSketchFile)
             : base(fullPathToSketchFile)
         {
         }
 
 
-        public override void InitializeCategoryFromFilePath()
+        protected sealed override void InitializeCategoryFromFilePath()
         {
             //Usually the parent directory of the INO file would be of the same name as the sketch file, which is just there for separation purpose. So we avoid it.
             var dir = new DirectoryInfo(fullPathToSketchFile).Parent;

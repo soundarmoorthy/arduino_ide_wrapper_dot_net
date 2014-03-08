@@ -55,9 +55,14 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Example.Service.Tests\ArduinoExamplesService.Tests.cs" />
+    <Compile Include="Example.Service.Tests\ArduinoExampleSketchTests.cs" />
+    <Compile Include="Example.Service.Tests\ArduinoExamplesServiceTests.cs" />
+    <Compile Include="Example.Service.Tests\ArduinoLibraryExampleSketch.cs" />
+    <Compile Include="Example.Service.Tests\SketchCategoryTests.cs" />
     <Compile Include="IDE.Service\ArduinoIDETests.cs" />
+    <Compile Include="IDE.Service\InstallationServiceTests.cs" />
     <Compile Include="Library.Service\Library.Tests.cs" />
+    <Compile Include="Library.Service\LibraryServiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

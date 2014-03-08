@@ -12,7 +12,8 @@ namespace ArduinoWrapper.Tests.IDE.Service
     public sealed class ArduinoIDETests
     {
         [TestMethod]
-        public void TestForSurprises()
+        [TestCategory("RequireInstallation")]
+        public void Test_If_The_IDE_Instance_Is_Created_Properly_And_All_Properties_Are_Are_Non_Null()
         {
             var ide = new ArduinoIDE(ArduinoInstallationService.InstallationPath);
 
@@ -23,19 +24,18 @@ namespace ArduinoWrapper.Tests.IDE.Service
         }
 
         [TestMethod]
+        [TestCategory("RequireInstallation")]
         [ExpectedException(typeof(ArgumentException))]
-        public void TestForUnexpectedNull()
+        public void TestForUnexpectedEmptyString()
         {
-            try
-            {
             var ide = new ArduinoIDE(string.Empty);
-            }
-            catch(ArgumentException ex)
-            {
-                var ide = new ArduinoIDE(null);
-            }
+        }
 
-            Assert.Fail("Expected exception was not thrown");
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void TestForNull()
+        {
+            var ide = new ArduinoIDE(null);
         }
 
         [TestMethod]

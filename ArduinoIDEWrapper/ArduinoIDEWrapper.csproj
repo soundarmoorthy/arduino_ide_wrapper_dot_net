@@ -56,6 +56,7 @@
     <Compile Include="Example.Service\ArduinoSketch.cs" />
     <Compile Include="Example.Service\ArduinoLibraryExampleSketch.cs" />
     <Compile Include="Example.Service\ExamplesService.cs" />
+    <Compile Include="Example.Service\IServiceProvider.cs" />
     <Compile Include="Example.Service\SketchCategory.cs" />
     <Compile Include="IDE.Service\ArduinoIDE.cs" />
     <Compile Include="IDE.Service\ArduinoEnvironment.cs" />
