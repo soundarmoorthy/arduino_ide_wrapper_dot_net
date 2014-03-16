@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Board.Service\ArduinoBoard.cs" />
     <Compile Include="Board.Service\BoardService.cs" />
+    <Compile Include="Board.Service\Properties.cs" />
     <Compile Include="Example.Service\ArduinoExampleSketch.cs" />
     <Compile Include="Example.Service\ArduinoSketch.cs" />
     <Compile Include="Example.Service\ArduinoLibraryExampleSketch.cs" />

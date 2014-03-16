@@ -55,6 +55,7 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Board.Service.Tests\BoardServiceTests.cs" />
     <Compile Include="Example.Service.Tests\ArduinoExampleSketchTests.cs" />
     <Compile Include="Example.Service.Tests\ArduinoExamplesServiceTests.cs" />
     <Compile Include="Example.Service.Tests\ArduinoLibraryExampleSketch.cs" />

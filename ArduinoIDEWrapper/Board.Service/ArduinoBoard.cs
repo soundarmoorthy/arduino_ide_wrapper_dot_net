@@ -5,7 +5,11 @@ using System.Text;
 
 namespace Arduino.IDE.Board.Service
 {
-    class ArduinoBoard
+    public sealed class ArduinoBoard
     {
+        public ArduinoBoard()
+        {
+
+        }
     }
 }
