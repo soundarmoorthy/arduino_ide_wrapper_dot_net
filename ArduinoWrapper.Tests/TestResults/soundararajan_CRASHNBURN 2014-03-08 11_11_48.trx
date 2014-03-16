@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ff9f1f1a-f9df-415f-9330-53051f21bbe8" name="soundararajan@CRASHNBURN 2014-03-08 11:11:48" runUser="CRASHNBURN\soundararajan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="86c05ebf-041d-4822-82d3-2880acbb5707">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="soundararajan_CRASHNBURN 2014-03-08 11_11_48" />
+  </TestSettings>
+  <Times creation="2014-03-08T11:11:48.8753960+05:30" queuing="2014-03-08T11:11:51.0786263+05:30" start="2014-03-08T11:11:51.2973884+05:30" finish="2014-03-08T11:11:54.4069113+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="17" executed="17" passed="15" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Throws_FileNotFoundException_When_File_Argument_Is_Empty" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="af2ae42d-6a70-4509-8ee7-ffa86713ae5b">
+      <Execution id="1a4917f5-9467-4f12-8f24-0688464cb9a4" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.Example.Service.Tests.ArduinoExampleSketchTests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Throws_FileNotFoundException_When_File_Argument_Is_Empty" />
+    </UnitTest>
+    <UnitTest name="TestForNonNull" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="db0a26d7-20ca-5e14-a363-4d9b915568f2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="RequireInstallation" />
+      </TestCategory>
+      <Execution id="fabe0562-2128-46c9-a8c4-fe8bedbaca0b" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.InstallationServiceTests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestForNonNull" />
+    </UnitTest>
+    <UnitTest name="Throws_FileNotFoundException_When_File_Doesnt_Exist" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="17349136-81c4-a831-462e-423b0ace677b">
+      <Execution id="6bb031d3-6399-4c79-aa8e-83ac4f76e323" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.Example.Service.Tests.ArduinoExampleSketchTests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Throws_FileNotFoundException_When_File_Doesnt_Exist" />
+    </UnitTest>
+    <UnitTest name="Throws_FileNotFoundException_When_File_Doesnt_Exist" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="94f43e35-9920-f73c-9680-ed3c01d2befb">
+      <Execution id="5cb2e9f1-a6db-42ab-b1e2-ffcffb2ed426" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.Example.Service.Tests.ArduinoLibraryExampleSketchTests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Throws_FileNotFoundException_When_File_Doesnt_Exist" />
+    </UnitTest>
+    <UnitTest name="Throws_FileNotFoundException_When_File_Argument_Is_Null" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="6eb002fa-59f8-dad0-24b7-1d2c307d6b56">
+      <Execution id="533ba14b-41c8-48ea-8245-f0c52c2e810c" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.Example.Service.Tests.ArduinoLibraryExampleSketchTests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Throws_FileNotFoundException_When_File_Argument_Is_Null" />
+    </UnitTest>
+    <UnitTest name="Test_If_Library_Service_Enumerates_Libraries_Properly" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="899a029e-9313-d9c1-1892-7d78c8f67170">
+      <TestCategory>
+        <TestCategoryItem TestCategory="RequireInstallation" />
+      </TestCategory>
+      <Execution id="75838b6c-4850-4e13-b9dd-a32480f16e61" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.Library.Service.LibraryServiceTests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_If_Library_Service_Enumerates_Libraries_Properly" />
+    </UnitTest>
+    <UnitTest name="Test_If_Library_Accessors_Works_Without_Exceptions" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="6152b965-6ef7-b253-11d5-bd81aa288809">
+      <TestCategory>
+        <TestCategoryItem TestCategory="RequireInstallation" />
+      </TestCategory>
+      <Execution id="8dc41b17-e184-4782-ad04-d300ca69ce93" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.Library.Service.LibraryTests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_If_Library_Accessors_Works_Without_Exceptions" />
+    </UnitTest>
+    <UnitTest name="Sketch_Category_Works_Without_Errors" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="4a648cf2-aadc-ecf5-54e0-6fc0657666cb">
+      <Execution id="fc821b08-5bfb-4a5c-8b8c-44176c3d8475" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.Example.Service.Tests.SketchCategoryTests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Sketch_Category_Works_Without_Errors" />
+    </UnitTest>
+    <UnitTest name="Test_If_Examples_Alone_Are_Enumerated_Without_Errors" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="9f9fff59-01f4-0dde-de58-8c18c9b4548e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="RequireInstallation" />
+      </TestCategory>
+      <Execution id="c68a68cf-8849-40ba-a3c4-7d8cf24ac267" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.Example.Service.Tests.ArduinoExampleServiceTests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_If_Examples_Alone_Are_Enumerated_Without_Errors" />
+    </UnitTest>
+    <UnitTest name="Test_If_The_IDE_Instance_Is_Created_Properly_And_All_Properties_Are_Are_Non_Null" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="1c8f4412-ed5f-fec0-a611-3bebc5dce60e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="RequireInstallation" />
+      </TestCategory>
+      <Execution id="e278263f-3368-4a27-a310-324985c58ec1" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.IDE.Service.ArduinoIDETests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_If_The_IDE_Instance_Is_Created_Properly_And_All_Properties_Are_Are_Non_Null" />
+    </UnitTest>
+    <UnitTest name="Test_If_Examples_Are_Enumerated_Without_Errors" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="1a7e01c3-9aa4-f952-ae21-67e3c0aff943">
+      <TestCategory>
+        <TestCategoryItem TestCategory="RequireInstallation" />
+      </TestCategory>
+      <Execution id="e0c2d570-b204-4ca4-bb21-e35c8b5261e4" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.Example.Service.Tests.ArduinoExampleServiceTests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_If_Examples_Are_Enumerated_Without_Errors" />
+    </UnitTest>
+    <UnitTest name="TestForUnexpectedEmptyString" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="00ddab18-45a3-7525-b552-1755b9c3b941">
+      <TestCategory>
+        <TestCategoryItem TestCategory="RequireInstallation" />
+      </TestCategory>
+      <Execution id="6c49190b-67ee-4bbc-a0c3-3a7ff77f8f16" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.IDE.Service.ArduinoIDETests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestForUnexpectedEmptyString" />
+    </UnitTest>
+    <UnitTest name="TestForUnexpectedPath" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="efc713c5-fe8c-fd4b-1e61-f263cad89bb5">
+      <Execution id="4ef64538-c0ac-402f-9775-902b3df5efa4" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.IDE.Service.ArduinoIDETests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestForUnexpectedPath" />
+    </UnitTest>
+    <UnitTest name="Throws_FileNotFoundException_When_File_Argument_Is_Null" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="0a6551a6-e8c6-3b31-070a-da1d9e7ad196">
+      <Execution id="83ac474e-1670-4ab0-8651-78523fc3521d" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.Example.Service.Tests.ArduinoExampleSketchTests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Throws_FileNotFoundException_When_File_Argument_Is_Null" />
+    </UnitTest>
+    <UnitTest name="Test_If_Examples_In_Libraries_Are_Enumerated_Without_Errors" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="06f6ca0b-0c7d-ed21-54b0-133b413333a1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="RequireInstallation" />
+      </TestCategory>
+      <Execution id="a3351f93-16de-4e4b-8fbf-a5c36bb70553" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.Example.Service.Tests.ArduinoExampleServiceTests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_If_Examples_In_Libraries_Are_Enumerated_Without_Errors" />
+    </UnitTest>
+    <UnitTest name="TestForNull" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="f7bdd147-d8af-1ca0-698b-ded82caed1fa">
+      <Execution id="25417d91-be8b-4846-9b8b-0ae43b488b1e" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.IDE.Service.ArduinoIDETests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestForNull" />
+    </UnitTest>
+    <UnitTest name="Throws_FileNotFoundException_When_File_Argument_Is_Empty" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="82f94b1b-7c2a-cc98-8673-eda5de2a2625">
+      <Execution id="6251eecf-35b5-4f1a-bb2c-e08e7e51a1c6" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.Example.Service.Tests.ArduinoLibraryExampleSketchTests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Throws_FileNotFoundException_When_File_Argument_Is_Empty" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9f9fff59-01f4-0dde-de58-8c18c9b4548e" executionId="c68a68cf-8849-40ba-a3c4-7d8cf24ac267" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a7e01c3-9aa4-f952-ae21-67e3c0aff943" executionId="e0c2d570-b204-4ca4-bb21-e35c8b5261e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06f6ca0b-0c7d-ed21-54b0-133b413333a1" executionId="a3351f93-16de-4e4b-8fbf-a5c36bb70553" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af2ae42d-6a70-4509-8ee7-ffa86713ae5b" executionId="1a4917f5-9467-4f12-8f24-0688464cb9a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a6551a6-e8c6-3b31-070a-da1d9e7ad196" executionId="83ac474e-1670-4ab0-8651-78523fc3521d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17349136-81c4-a831-462e-423b0ace677b" executionId="6bb031d3-6399-4c79-aa8e-83ac4f76e323" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82f94b1b-7c2a-cc98-8673-eda5de2a2625" executionId="6251eecf-35b5-4f1a-bb2c-e08e7e51a1c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6eb002fa-59f8-dad0-24b7-1d2c307d6b56" executionId="533ba14b-41c8-48ea-8245-f0c52c2e810c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94f43e35-9920-f73c-9680-ed3c01d2befb" executionId="5cb2e9f1-a6db-42ab-b1e2-ffcffb2ed426" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a648cf2-aadc-ecf5-54e0-6fc0657666cb" executionId="fc821b08-5bfb-4a5c-8b8c-44176c3d8475" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c8f4412-ed5f-fec0-a611-3bebc5dce60e" executionId="e278263f-3368-4a27-a310-324985c58ec1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7bdd147-d8af-1ca0-698b-ded82caed1fa" executionId="25417d91-be8b-4846-9b8b-0ae43b488b1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00ddab18-45a3-7525-b552-1755b9c3b941" executionId="6c49190b-67ee-4bbc-a0c3-3a7ff77f8f16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efc713c5-fe8c-fd4b-1e61-f263cad89bb5" executionId="4ef64538-c0ac-402f-9775-902b3df5efa4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db0a26d7-20ca-5e14-a363-4d9b915568f2" executionId="fabe0562-2128-46c9-a8c4-fe8bedbaca0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="899a029e-9313-d9c1-1892-7d78c8f67170" executionId="75838b6c-4850-4e13-b9dd-a32480f16e61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6152b965-6ef7-b253-11d5-bd81aa288809" executionId="8dc41b17-e184-4782-ad04-d300ca69ce93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c68a68cf-8849-40ba-a3c4-7d8cf24ac267" testId="9f9fff59-01f4-0dde-de58-8c18c9b4548e" testName="Test_If_Examples_Alone_Are_Enumerated_Without_Errors" computerName="CRASHNBURN" duration="00:00:01.1604165" startTime="2014-03-08T11:11:51.4223944+05:30" endTime="2014-03-08T11:11:52.9693419+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c68a68cf-8849-40ba-a3c4-7d8cf24ac267">
+    </UnitTestResult>
+    <UnitTestResult executionId="e0c2d570-b204-4ca4-bb21-e35c8b5261e4" testId="1a7e01c3-9aa4-f952-ae21-67e3c0aff943" testName="Test_If_Examples_Are_Enumerated_Without_Errors" computerName="CRASHNBURN" duration="00:00:00.9721234" startTime="2014-03-08T11:11:52.9849682+05:30" endTime="2014-03-08T11:11:53.9537652+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0c2d570-b204-4ca4-bb21-e35c8b5261e4">
+    </UnitTestResult>
+    <UnitTestResult executionId="a3351f93-16de-4e4b-8fbf-a5c36bb70553" testId="06f6ca0b-0c7d-ed21-54b0-133b413333a1" testName="Test_If_Examples_In_Libraries_Are_Enumerated_Without_Errors" computerName="CRASHNBURN" duration="00:00:00.0521851" startTime="2014-03-08T11:11:53.9693903+05:30" endTime="2014-03-08T11:11:54.0162665+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3351f93-16de-4e4b-8fbf-a5c36bb70553">
+    </UnitTestResult>
+    <UnitTestResult executionId="1a4917f5-9467-4f12-8f24-0688464cb9a4" testId="af2ae42d-6a70-4509-8ee7-ffa86713ae5b" testName="Throws_FileNotFoundException_When_File_Argument_Is_Empty" computerName="CRASHNBURN" duration="00:00:00.0236185" startTime="2014-03-08T11:11:54.0162665+05:30" endTime="2014-03-08T11:11:54.0475188+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a4917f5-9467-4f12-8f24-0688464cb9a4">
+    </UnitTestResult>
+    <UnitTestResult executionId="83ac474e-1670-4ab0-8651-78523fc3521d" testId="0a6551a6-e8c6-3b31-070a-da1d9e7ad196" testName="Throws_FileNotFoundException_When_File_Argument_Is_Null" computerName="CRASHNBURN" duration="00:00:00.0009507" startTime="2014-03-08T11:11:54.0475188+05:30" endTime="2014-03-08T11:11:54.0631456+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83ac474e-1670-4ab0-8651-78523fc3521d">
+    </UnitTestResult>
+    <UnitTestResult executionId="6bb031d3-6399-4c79-aa8e-83ac4f76e323" testId="17349136-81c4-a831-462e-423b0ace677b" testName="Throws_FileNotFoundException_When_File_Doesnt_Exist" computerName="CRASHNBURN" duration="00:00:00.0009520" startTime="2014-03-08T11:11:54.0631456+05:30" endTime="2014-03-08T11:11:54.0631456+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bb031d3-6399-4c79-aa8e-83ac4f76e323">
+    </UnitTestResult>
+    <UnitTestResult executionId="6251eecf-35b5-4f1a-bb2c-e08e7e51a1c6" testId="82f94b1b-7c2a-cc98-8673-eda5de2a2625" testName="Throws_FileNotFoundException_When_File_Argument_Is_Empty" computerName="CRASHNBURN" duration="00:00:00.0011913" startTime="2014-03-08T11:11:54.0631456+05:30" endTime="2014-03-08T11:11:54.0787708+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6251eecf-35b5-4f1a-bb2c-e08e7e51a1c6">
+    </UnitTestResult>
+    <UnitTestResult executionId="533ba14b-41c8-48ea-8245-f0c52c2e810c" testId="6eb002fa-59f8-dad0-24b7-1d2c307d6b56" testName="Throws_FileNotFoundException_When_File_Argument_Is_Null" computerName="CRASHNBURN" duration="00:00:00.0011847" startTime="2014-03-08T11:11:54.0787708+05:30" endTime="2014-03-08T11:11:54.0787708+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="533ba14b-41c8-48ea-8245-f0c52c2e810c">
+    </UnitTestResult>
+    <UnitTestResult executionId="5cb2e9f1-a6db-42ab-b1e2-ffcffb2ed426" testId="94f43e35-9920-f73c-9680-ed3c01d2befb" testName="Throws_FileNotFoundException_When_File_Doesnt_Exist" computerName="CRASHNBURN" duration="00:00:00.0011429" startTime="2014-03-08T11:11:54.0787708+05:30" endTime="2014-03-08T11:11:54.0943963+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5cb2e9f1-a6db-42ab-b1e2-ffcffb2ed426">
+    </UnitTestResult>
+    <UnitTestResult executionId="fc821b08-5bfb-4a5c-8b8c-44176c3d8475" testId="4a648cf2-aadc-ecf5-54e0-6fc0657666cb" testName="Sketch_Category_Works_Without_Errors" computerName="CRASHNBURN" duration="00:00:00.0013469" startTime="2014-03-08T11:11:54.0943963+05:30" endTime="2014-03-08T11:11:54.0943963+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc821b08-5bfb-4a5c-8b8c-44176c3d8475">
+    </UnitTestResult>
+    <UnitTestResult executionId="e278263f-3368-4a27-a310-324985c58ec1" testId="1c8f4412-ed5f-fec0-a611-3bebc5dce60e" testName="Test_If_The_IDE_Instance_Is_Created_Properly_And_All_Properties_Are_Are_Non_Null" computerName="CRASHNBURN" duration="00:00:00.0260940" startTime="2014-03-08T11:11:54.0943963+05:30" endTime="2014-03-08T11:11:54.1256490+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e278263f-3368-4a27-a310-324985c58ec1">
+    </UnitTestResult>
+    <UnitTestResult executionId="25417d91-be8b-4846-9b8b-0ae43b488b1e" testId="f7bdd147-d8af-1ca0-698b-ded82caed1fa" testName="TestForNull" computerName="CRASHNBURN" duration="00:00:00.0010649" startTime="2014-03-08T11:11:54.1412742+05:30" endTime="2014-03-08T11:11:54.1412742+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25417d91-be8b-4846-9b8b-0ae43b488b1e">
+    </UnitTestResult>
+    <UnitTestResult executionId="6c49190b-67ee-4bbc-a0c3-3a7ff77f8f16" testId="00ddab18-45a3-7525-b552-1755b9c3b941" testName="TestForUnexpectedEmptyString" computerName="CRASHNBURN" duration="00:00:00.0009191" startTime="2014-03-08T11:11:54.1412742+05:30" endTime="2014-03-08T11:11:54.1412742+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c49190b-67ee-4bbc-a0c3-3a7ff77f8f16">
+    </UnitTestResult>
+    <UnitTestResult executionId="4ef64538-c0ac-402f-9775-902b3df5efa4" testId="efc713c5-fe8c-fd4b-1e61-f263cad89bb5" testName="TestForUnexpectedPath" computerName="CRASHNBURN" duration="00:00:00.0672992" startTime="2014-03-08T11:11:54.1412742+05:30" endTime="2014-03-08T11:11:54.2194023+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ef64538-c0ac-402f-9775-902b3df5efa4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ArduinoWrapper.Tests.IDE.Service.ArduinoIDETests.TestForUnexpectedPath threw exception System.ArgumentException, but exception System.IO.FileNotFoundException was expected. Exception message: System.ArgumentException: installBasePath</Message>
+          <StackTrace>    at Arduino.IDE.ArduinoIDE..ctor(String installBasePath) in C:\Users\soundararajan\Documents\ArduinoIDEWrapper\ArduinoIDEWrapper\IDE.Service\ArduinoIDE.cs:line 14
+   at ArduinoWrapper.Tests.IDE.Service.ArduinoIDETests.TestForUnexpectedPath() in C:\Users\soundararajan\Documents\ArduinoIDEWrapper\ArduinoWrapper.Tests\IDE.Service\ArduinoIDETests.cs:line 46
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fabe0562-2128-46c9-a8c4-fe8bedbaca0b" testId="db0a26d7-20ca-5e14-a363-4d9b915568f2" testName="TestForNonNull" computerName="CRASHNBURN" duration="00:00:00.0030518" startTime="2014-03-08T11:11:54.2194023+05:30" endTime="2014-03-08T11:11:54.2350283+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fabe0562-2128-46c9-a8c4-fe8bedbaca0b">
+    </UnitTestResult>
+    <UnitTestResult executionId="75838b6c-4850-4e13-b9dd-a32480f16e61" testId="899a029e-9313-d9c1-1892-7d78c8f67170" testName="Test_If_Library_Service_Enumerates_Libraries_Properly" computerName="CRASHNBURN" duration="00:00:00.0054920" startTime="2014-03-08T11:11:54.2350283+05:30" endTime="2014-03-08T11:11:54.2506542+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75838b6c-4850-4e13-b9dd-a32480f16e61">
+    </UnitTestResult>
+    <UnitTestResult executionId="8dc41b17-e184-4782-ad04-d300ca69ce93" testId="6152b965-6ef7-b253-11d5-bd81aa288809" testName="Test_If_Library_Accessors_Works_Without_Exceptions" computerName="CRASHNBURN" duration="00:00:00.0763234" startTime="2014-03-08T11:11:54.2506542+05:30" endTime="2014-03-08T11:11:54.3287828+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8dc41b17-e184-4782-ad04-d300ca69ce93">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at ArduinoWrapper.Tests.Library.Service.LibraryTests.Test_If_Library_Accessors_Works_Without_Exceptions() in C:\Users\soundararajan\Documents\ArduinoIDEWrapper\ArduinoWrapper.Tests\Library.Service\Library.Tests.cs:line 31
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

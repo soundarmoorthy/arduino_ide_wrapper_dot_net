@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Arduino.IDE.Example.Service
+namespace Arduino.IDE
 {
     public interface IServiceProvider<T,U>
     {

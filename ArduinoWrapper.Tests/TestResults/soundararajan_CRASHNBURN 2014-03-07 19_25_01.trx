@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e0626acf-281f-44fc-90a5-054d57a396ad" name="soundararajan@CRASHNBURN 2014-03-07 19:25:01" runUser="crashnburn\soundararajan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="8fbebd85-60c5-4e85-96d7-6ce564de86e3">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="soundararajan_CRASHNBURN 2014-03-07 19_25_01" />
+  </TestSettings>
+  <Times creation="2014-03-07T19:25:01.7264425+05:30" queuing="2014-03-07T19:25:05.5049645+05:30" start="2014-03-07T19:25:05.7121035+05:30" finish="2014-03-07T19:25:07.6451878+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestForSurprises" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="943fc398-5b9f-7fe5-26fb-3880ea41fe18">
+      <Execution id="52b1f8d2-f769-4e1f-b204-28ac526921cb" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.IDE.Service.ArduinoIDETests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestForSurprises" />
+    </UnitTest>
+    <UnitTest name="SimpleTest_LibraryAccessors" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="ef6a847a-62c8-6b08-452e-9313197dde6c">
+      <Execution id="f9f0539f-999f-43cf-a02c-c72552b208d3" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.Library.Service.LibraryTests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SimpleTest_LibraryAccessors" />
+    </UnitTest>
+    <UnitTest name="EnumerateExamplesTests" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="72943606-96da-3753-0a45-b737b9da0c47">
+      <Execution id="8382cad4-4169-4501-89a6-533d7a42f345" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.Example.Service.Tests.ArduinoExampleSketchTests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EnumerateExamplesTests" />
+    </UnitTest>
+    <UnitTest name="TestForUnexpectedPath" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="efc713c5-fe8c-fd4b-1e61-f263cad89bb5">
+      <Execution id="92d6b194-9a41-4e1f-9555-863518e03dc1" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.IDE.Service.ArduinoIDETests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestForUnexpectedPath" />
+    </UnitTest>
+    <UnitTest name="TestForUnexpectedNull" storage="c:\users\soundararajan\documents\arduinoidewrapper\arduinowrapper.tests\bin\opencover\arduinoidewrapper.tests.dll" id="b8c546c5-c393-45e7-75f5-e25da5fe6248">
+      <Execution id="baeee096-39a9-4f11-8a4c-6b5ee6aae65c" />
+      <TestMethod codeBase="C:/Users/soundararajan/Documents/ArduinoIDEWrapper/ArduinoWrapper.Tests/bin/OpenCover/ArduinoIDEWrapper.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ArduinoWrapper.Tests.IDE.Service.ArduinoIDETests, ArduinoIDEWrapper.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestForUnexpectedNull" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="72943606-96da-3753-0a45-b737b9da0c47" executionId="8382cad4-4169-4501-89a6-533d7a42f345" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="943fc398-5b9f-7fe5-26fb-3880ea41fe18" executionId="52b1f8d2-f769-4e1f-b204-28ac526921cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8c546c5-c393-45e7-75f5-e25da5fe6248" executionId="baeee096-39a9-4f11-8a4c-6b5ee6aae65c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efc713c5-fe8c-fd4b-1e61-f263cad89bb5" executionId="92d6b194-9a41-4e1f-9555-863518e03dc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef6a847a-62c8-6b08-452e-9313197dde6c" executionId="f9f0539f-999f-43cf-a02c-c72552b208d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8382cad4-4169-4501-89a6-533d7a42f345" testId="72943606-96da-3753-0a45-b737b9da0c47" testName="EnumerateExamplesTests" computerName="CRASHNBURN" duration="00:00:00.9078379" startTime="2014-03-07T19:25:06.0883540+05:30" endTime="2014-03-07T19:25:07.3710043+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8382cad4-4169-4501-89a6-533d7a42f345">
+    </UnitTestResult>
+    <UnitTestResult executionId="52b1f8d2-f769-4e1f-b204-28ac526921cb" testId="943fc398-5b9f-7fe5-26fb-3880ea41fe18" testName="TestForSurprises" computerName="CRASHNBURN" duration="00:00:00.0214736" startTime="2014-03-07T19:25:07.3760074+05:30" endTime="2014-03-07T19:25:07.4050262+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52b1f8d2-f769-4e1f-b204-28ac526921cb">
+    </UnitTestResult>
+    <UnitTestResult executionId="baeee096-39a9-4f11-8a4c-6b5ee6aae65c" testId="b8c546c5-c393-45e7-75f5-e25da5fe6248" testName="TestForUnexpectedNull" computerName="CRASHNBURN" duration="00:00:00.0134247" startTime="2014-03-07T19:25:07.4080288+05:30" endTime="2014-03-07T19:25:07.4260400+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="baeee096-39a9-4f11-8a4c-6b5ee6aae65c">
+    </UnitTestResult>
+    <UnitTestResult executionId="92d6b194-9a41-4e1f-9555-863518e03dc1" testId="efc713c5-fe8c-fd4b-1e61-f263cad89bb5" testName="TestForUnexpectedPath" computerName="CRASHNBURN" duration="00:00:00.0709827" startTime="2014-03-07T19:25:07.4290430+05:30" endTime="2014-03-07T19:25:07.5040926+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92d6b194-9a41-4e1f-9555-863518e03dc1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method ArduinoWrapper.Tests.IDE.Service.ArduinoIDETests.TestForUnexpectedPath threw exception System.ArgumentException, but exception System.IO.FileNotFoundException was expected. Exception message: System.ArgumentException: installBasePath</Message>
+          <StackTrace>    at Arduino.IDE.ArduinoIDE..ctor(String installBasePath) in C:\Users\soundararajan\Documents\ArduinoIDEWrapper\ArduinoIDEWrapper\IDE.Service\ArduinoIDE.cs:line 14
+   at ArduinoWrapper.Tests.IDE.Service.ArduinoIDETests.TestForUnexpectedPath() in C:\Users\soundararajan\Documents\ArduinoIDEWrapper\ArduinoWrapper.Tests\IDE.Service\ArduinoIDETests.cs:line 46
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f9f0539f-999f-43cf-a02c-c72552b208d3" testId="ef6a847a-62c8-6b08-452e-9313197dde6c" testName="SimpleTest_LibraryAccessors" computerName="CRASHNBURN" duration="00:00:00.0578055" startTime="2014-03-07T19:25:07.5070952+05:30" endTime="2014-03-07T19:25:07.5691370+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9f0539f-999f-43cf-a02c-c72552b208d3">
+    </UnitTestResult>
+  </Results>
+</TestRun>

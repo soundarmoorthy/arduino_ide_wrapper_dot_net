@@ -6,7 +6,7 @@ using System.IO;
 
 namespace Arduino.IDE.Library
 {
-    public sealed class LibraryService
+    public sealed class LibraryService : IServiceProvider<LibraryService, string>
     {
         string fullPathToInstallation;
         public LibraryService(string fullPathToInstallation)
@@ -22,7 +22,21 @@ namespace Arduino.IDE.Library
             {
                 yield return new ArduinoLibrary(libraryPath);
             }
+        }
 
+        LibraryService service;
+        public void Create(string args)
+        {
+            if (service == null)
+                service = new LibraryService(args);
+        }
+
+        public LibraryService GetService()
+        {
+            if (service != null)
+                return service;
+            else
+                throw new NullReferenceException("The requested service is not initialized.");
         }
     }
 }

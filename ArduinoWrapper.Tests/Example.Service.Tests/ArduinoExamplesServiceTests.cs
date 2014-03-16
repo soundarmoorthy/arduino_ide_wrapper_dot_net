@@ -2,6 +2,8 @@
 using System.IO;
 using Arduino.IDE;
 using Arduino.IDE.Example;
+using System.Linq;
+using System;
 
 namespace ArduinoWrapper.Tests.Example.Service.Tests
 {
@@ -61,6 +63,23 @@ namespace ArduinoWrapper.Tests.Example.Service.Tests
             {
                 Assert.IsNotNull(example);
             }
+        }
+
+        [TestMethod]
+        public void Test_If_Enumerate_Examples_Run_Without_Errors_Even_If_Directory_Doesnt_Exist()
+        {
+            var dir = Path.Combine(Path.GetTempPath(), DateTime.Now.ToFileTime().ToString());
+            var service = new ExamplesService(dir);
+
+            Assert.IsNotNull(service);
+            //Actually, the following code doens't do anything but to unfold the enumerable you have to iterate them over.
+            foreach (var example in service.EnumerateExamplesAll())
+            {
+
+                Assert.IsNotNull(example);
+            }
+
+            
         }
     }
 } 
