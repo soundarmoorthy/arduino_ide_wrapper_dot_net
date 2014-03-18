@@ -63,12 +63,12 @@ namespace Arduino.IDE.Board.Service
         //To understand this properly you could perhaps read http://docs.oracle.com/javase/6/docs/api/java/util/Properties.html#load%28java.io.Reader%29
         internal List<ArduinoProperty> ParsePropertiesFile(string fullPathToBoardsFile)
         {
+            List<ArduinoProperty> properties = new List<ArduinoProperty>();
             using (StreamReader sr = new StreamReader(fullPathToBoardsFile))
             {
                 //Read each line and look for properties
                 char ch;
                 int read;
-                List<ArduinoProperty> properties = new List<ArduinoProperty>();
                 LinkedList<char> propertyName = new LinkedList<char>();
                 LinkedList<char> propertyValue = new LinkedList<char>();
                 Context context = Context.Start;
@@ -189,6 +189,7 @@ namespace Arduino.IDE.Board.Service
                     }
                 }
             }
+            return properties;
         }
 
         BoardService service;
